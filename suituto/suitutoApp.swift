@@ -11,7 +11,7 @@ import SwiftUI
 struct suitutoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(text: "normal app")
+            ContentView()
         }
     }
 }
