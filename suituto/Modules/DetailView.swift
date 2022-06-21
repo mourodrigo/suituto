@@ -9,12 +9,17 @@ import SwiftUI
 
 struct DetailView: View {
         
+    @EnvironmentObject var modelData: ModelData
+    
+    var landMarkIndex: Int {
+        modelData.landmarks.firstIndex(where: { $0.id == landmark.id }) ?? 0
+    }
+    
     var landmark: Landmark
     
     var body: some View {
         ScrollView {
             MapView(coordinate: landmark.locationCoordinate)
-//                .ignoresSafeArea()
                 .frame(height: 200)
 
             CircleImage(image: landmark.image)
@@ -22,8 +27,11 @@ struct DetailView: View {
                 .padding(.bottom, -130)
 
             VStack(alignment: .leading) {
-                Text(landmark.name)
-                    .font(.title)
+                HStack {
+                    Text(landmark.name)
+                        .font(.title)
+                    FavoriteButton(isSet: $modelData.landmarks[landMarkIndex].isFavorite)
+                }
 
                 HStack {
                     Text(landmark.park)

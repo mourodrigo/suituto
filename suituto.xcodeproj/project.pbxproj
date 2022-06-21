@@ -20,6 +20,7 @@
 		3016B4FF286103FE0000F203 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3016B4FE286103FE0000F203 /* LandmarkRow.swift */; };
 		3016B501286106980000F203 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3016B500286106980000F203 /* LandmarkList.swift */; };
 		3016B50428610A970000F203 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3016B50328610A970000F203 /* DetailView.swift */; };
+		3016B50628623CEB0000F203 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3016B50528623CEB0000F203 /* FavoriteButton.swift */; };
 		301F47E0284D3AF000427E0C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F47DF284D3AF000427E0C /* CircleImage.swift */; };
 		301F47E2284D3F0B00427E0C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F47E1284D3F0B00427E0C /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		3016B4FE286103FE0000F203 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		3016B500286106980000F203 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		3016B50328610A970000F203 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3016B50528623CEB0000F203 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		301F47DF284D3AF000427E0C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		301F47E1284D3F0B00427E0C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				301F47DF284D3AF000427E0C /* CircleImage.swift */,
+				3016B50528623CEB0000F203 /* FavoriteButton.swift */,
 				3016B4FE286103FE0000F203 /* LandmarkRow.swift */,
 				3016B500286106980000F203 /* LandmarkList.swift */,
 				301F47E1284D3F0B00427E0C /* MapView.swift */,
@@ -317,6 +320,7 @@
 				30079B65284D2DAA000CBD3B /* ContentView.swift in Sources */,
 				3016B50428610A970000F203 /* DetailView.swift in Sources */,
 				301F47E2284D3F0B00427E0C /* MapView.swift in Sources */,
+				3016B50628623CEB0000F203 /* FavoriteButton.swift in Sources */,
 				30079B63284D2DAA000CBD3B /* suitutoApp.swift in Sources */,
 				3016B501286106980000F203 /* LandmarkList.swift in Sources */,
 				301F47E0284D3AF000427E0C /* CircleImage.swift in Sources */,
