@@ -49,6 +49,8 @@ struct DetailView: View {
 }
 
 struct DetailView_Previews: PreviewProvider {
+    static var landmarks = ModelData().landmarks
+
     static var previews: some View {
         DetailView(landmark: landmarks[0])
     }
