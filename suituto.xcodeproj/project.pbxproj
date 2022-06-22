@@ -23,6 +23,10 @@
 		3016B50628623CEB0000F203 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3016B50528623CEB0000F203 /* FavoriteButton.swift */; };
 		301F47E0284D3AF000427E0C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F47DF284D3AF000427E0C /* CircleImage.swift */; };
 		301F47E2284D3F0B00427E0C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301F47E1284D3F0B00427E0C /* MapView.swift */; };
+		30330931286398AE002A28F8 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30330930286398AD002A28F8 /* HexagonParameters.swift */; };
+		303309332863996F002A28F8 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303309322863996E002A28F8 /* BadgeBackground.swift */; };
+		3033093528639DDC002A28F8 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033093428639DDC002A28F8 /* BadgeSymbol.swift */; };
+		303309372863A06C002A28F8 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303309362863A06C002A28F8 /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		3016B50528623CEB0000F203 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		301F47DF284D3AF000427E0C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		301F47E1284D3F0B00427E0C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		30330930286398AD002A28F8 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HexagonParameters.swift; path = suituto/Resources/HexagonParameters.swift; sourceTree = SOURCE_ROOT; };
+		303309322863996E002A28F8 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		3033093428639DDC002A28F8 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		303309362863A06C002A28F8 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,9 +186,13 @@
 			isa = PBXGroup;
 			children = (
 				301F47DF284D3AF000427E0C /* CircleImage.swift */,
+				3033093428639DDC002A28F8 /* BadgeSymbol.swift */,
+				303309362863A06C002A28F8 /* Badge.swift */,
 				3016B50528623CEB0000F203 /* FavoriteButton.swift */,
 				3016B4FE286103FE0000F203 /* LandmarkRow.swift */,
 				3016B500286106980000F203 /* LandmarkList.swift */,
+				30330930286398AD002A28F8 /* HexagonParameters.swift */,
+				303309322863996E002A28F8 /* BadgeBackground.swift */,
 				301F47E1284D3F0B00427E0C /* MapView.swift */,
 			);
 			path = Components;
@@ -321,8 +333,12 @@
 				3016B50428610A970000F203 /* DetailView.swift in Sources */,
 				301F47E2284D3F0B00427E0C /* MapView.swift in Sources */,
 				3016B50628623CEB0000F203 /* FavoriteButton.swift in Sources */,
+				30330931286398AE002A28F8 /* HexagonParameters.swift in Sources */,
+				3033093528639DDC002A28F8 /* BadgeSymbol.swift in Sources */,
 				30079B63284D2DAA000CBD3B /* suitutoApp.swift in Sources */,
+				303309372863A06C002A28F8 /* Badge.swift in Sources */,
 				3016B501286106980000F203 /* LandmarkList.swift in Sources */,
+				303309332863996F002A28F8 /* BadgeBackground.swift in Sources */,
 				301F47E0284D3AF000427E0C /* CircleImage.swift in Sources */,
 				3016B4FA2860F7ED0000F203 /* Landmark.swift in Sources */,
 				3016B4FF286103FE0000F203 /* LandmarkRow.swift in Sources */,
